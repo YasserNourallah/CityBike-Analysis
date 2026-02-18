@@ -1,0 +1,16 @@
+station_id,name,capacity,lat,lon
+ST100,Central,30,48.75,9.15
+ST101,University,10,48.75,9.15
+ST102,City Hall,30,48.75,9.15
+ST103,Park,30,48.75,9.15
+ST104,Square,10,48.75,9.15
+ST105,Tech Hub,10,48.75,9.15
+ST106,Old Town,30,48.75,9.15
+ST107,Harbor,20,48.75,9.15
+ST108,Arena,30,48.75,9.15
+ST109,West End,30,48.75,9.15
+ST110,North Gate,30,48.75,9.15
+ST111,Museum,30,48.75,9.15
+ST112,Business,10,48.75,9.15
+ST113,Lakeside,30,48.75,9.15
+ST114,Airport,20,48.75,9.15
