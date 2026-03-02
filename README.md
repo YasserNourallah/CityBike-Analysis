@@ -39,6 +39,33 @@ This platform is a comprehensive **Data Analysis System** designed to process, a
 └── main.py             # System Entry Point & Interactive CLI
 
 
-``` (هذه الثلاث نقاط هي التي تغلق الصندوق السابق)
+```
 
 ## 🚀 Getting Started
+### 1. Installation
+Ensure you have Python 3.9+ installed, then install the required libraries:
+```bash
+pip install numpy matplotlib pandas
+
+```
+
+### 2. Running the System
+Place your datasets (trips.csv and maintenance.csv) in the data/ folder, then launch the interactive menu:
+```bash
+python main.py
+
+```
+
+### 3. Data Generation (Optional)
+If you don't have a dataset, you can generate a synthetic one for testing:
+```bash
+python data_generator.py
+
+```
+
+### 🛠️ Data Cleaning Policy
+The system automatically handles missing values (NaNs) and filters out invalid records (e.g., negative durations) during the loading phase via the Factory Pattern, ensuring high data integrity for all subsequent analyses.
+
+Developer: Yasser Nourallah
+
+Module: Python 2 - Capstone Project
