@@ -36,8 +36,8 @@ This platform is a comprehensive **Data Analysis System** designed to process, a
 ├── algorithms/         # Custom Sorting (Merge Sort) & Benchmarking
 ├── analytics/          # NumPy-based statistical logic
 
-##🚀 Getting Started
-**1. Installation
+### 🚀 Getting Started
+1. Installation
 Clone the repository and install the required libraries:
 ├── output/             # Generated Reports & Figures
 └── main.py             # System Entry Point & Interactive CLI
