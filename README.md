@@ -1,48 +1,39 @@
-City Bike Analysis System
+# 🚲 City Bike Analysis System
 
-Project Overview
-This project is a high-performance Data Analysis Platform designed to process and visualize urban bike-sharing datasets. It demonstrates advanced Python concepts, including Software Architecture Patterns, Custom Algorithms, and Data Science Libraries.
+[![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org)
 
-Key Features & Technical Stack
+## 📝 Project Overview
+This platform is a comprehensive **Data Analysis System** designed to process, analyze, and visualize urban bike-sharing datasets. It is built as a modular framework to demonstrate advanced Python concepts, software design patterns, and efficient algorithmic implementations.
 
-Software Architecture (OOP & Patterns)
-Domain Modeling: Used Abstract Base Classes (ABC) to define core entities (Station, Trip), ensuring strict interface enforcement.
+---
 
-Factory Design Pattern: Implemented for robust data initialization and decoupling the CSV parsing logic from the business logic.
+## ✨ Technical Stack & Features
 
-Strategy Design Pattern: Flexible pricing engine to calculate trip fares based on user types (Subscriber vs. Casual).
+### 🏗️ Software Architecture (OOP & Patterns)
+* **Domain Modeling:** Implemented **Object-Oriented Programming (OOP)** with **Abstract Base Classes (ABC)** to define core entities like `Station` and `Trip`.
+* **Factory Design Pattern:** Used for robust data initialization, decoupling CSV parsing from the core business logic for better maintainability.
+* **Strategy Design Pattern:** Built a flexible pricing engine to handle different user types (`Member` vs. `Casual`) without modifying the core `Trip` class.
 
-Algorithms & PerformanceMerge Sort: 
-Custom implementation of the Merge Sort algorithm ($O(n \log n)$) for stable and efficient sorting of massive trip datasets.NumPy Integration: High-speed numerical computing for calculating mean, median, standard deviation, and detecting outliers.
+### ⚡ Algorithms & High Performance
+* **Merge Sort Algorithm:** A custom, manual implementation of the **Merge Sort** ($O(n \log n)$) to ensure stable and efficient sorting of large trip datasets.
+* **Numerical Computing (NumPy):** Leveraged **NumPy Arrays** and vectorized operations for fast statistical calculations (Mean, Median, Std Dev, and Outlier Detection).
 
-Analytics & Visualization
-Matplotlib: Automated generation of professional insights:
+### 📊 Automated Analytics & Visualization
+* **Matplotlib Integration:** Automated generation of professional insights saved directly to `output/figures/`:
+    * Trip Duration Distributions (Histograms).
+    * Top-performing Stations (Bar Charts).
+    * User Type Demographics (Pie Charts).
+* **Summary Reporting:** Generates an automated `summary_report.txt` containing key KPIs and data cleaning logs.
 
-Trip duration distribution (Histogram).
+---
 
-Top-performing stations (Bar Charts).
-
-User demographics (Pie Charts).
-
-Project Structure
-├── data/               # Raw CSV datasets
+## 📂 Project Structure
+```bash
+├── data/               # Raw CSV datasets (trips.csv, maintenance.csv)
 ├── models/             # OOP Domain Models (Entity, Trip, Station)
 ├── factories/          # Factory Pattern implementations
-├── algorithms/         # Custom Sorting & Benchmarking
+├── algorithms/         # Custom Sorting (Merge Sort) & Benchmarking
 ├── analytics/          # NumPy-based statistical logic
 ├── output/             # Generated Reports & Figures
-└── main.py             # System Entry Point
-
-Getting Started
-1. Prerequisites
-Ensure you have Python installed, then install dependencies:
-pip install numpy matplotlib pandas
-
-2. Execution
-First, generate the synthetic dataset (if needed):
-python data_generator.py
-Then, launch the interactive analysis system:
-python main.py
-
-Sample Results
-The system automatically generates a summary_report.txt and saves all visualizations in output/figures/, providing actionable insights into urban mobility patterns.
+└── main.py             # System Entry Point & Interactive CLI
