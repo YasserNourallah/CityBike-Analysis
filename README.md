@@ -39,3 +39,6 @@ This platform is a comprehensive **Data Analysis System** designed to process, a
 └── main.py             # System Entry Point & Interactive CLI
 
 
+``` (هذه الثلاث نقاط هي التي تغلق الصندوق السابق)
+
+## 🚀 Getting Started
