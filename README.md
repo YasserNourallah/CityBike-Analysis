@@ -37,3 +37,12 @@ This platform is a comprehensive **Data Analysis System** designed to process, a
 ├── analytics/          # NumPy-based statistical logic
 ├── output/             # Generated Reports & Figures
 └── main.py             # System Entry Point & Interactive CLI
+
+---
+
+## 🚀 Getting Started
+
+### 1. Installation
+Ensure you have Python installed, then install the required libraries:
+```bash
+pip install numpy matplotlib pandas
